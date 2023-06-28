@@ -139,7 +139,7 @@ for (btn of buttons) {
           operatorClicked=true;
           state.expression+=clickedBtn;
           console.log("true");
-          if(clickedBtn=="%"){
+           if(clickedBtn=="%"){
             operatorClicked=false;
           }
         }
@@ -147,7 +147,7 @@ for (btn of buttons) {
         {
           state.expression+=clickedBtn;
           operatorClicked=false;
-          console.log('clicled');
+          
         }
 
         input.innerText=state.expression;
@@ -155,6 +155,3 @@ for (btn of buttons) {
     }
   });
 }
-
-// state.expression+=clickedBtn;
-
